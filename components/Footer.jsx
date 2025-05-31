@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Social Icons */}
         <div className="flex gap-5">
           <a
-            href="https://www.instagram.com/"
+            href="https://www.instagram.com/sujeet_steel_fabricator?igsh=YXVqeWFzM3JrZjRj"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"
@@ -23,7 +23,7 @@ const Footer = () => {
             <Instagram className="w-5 h-5" />
           </a>
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/profile.php?id=61576090302407"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"
@@ -31,7 +31,7 @@ const Footer = () => {
             <Facebook className="w-5 h-5" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/sujit-steel-fabricator-469150366"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"
@@ -39,7 +39,7 @@ const Footer = () => {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="https://www.youtube.com/"
+            href="https://www.youtube.com/@SujeetSteelfabrication"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition-colors duration-300"

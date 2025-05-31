@@ -41,36 +41,51 @@ const ContactUs = () => {
         </div>
 
         {/* Right: Contact Info */}
-        <div className="flex flex-col justify-center gap-6">
-          <h2 className="text-3xl font-bold text-indigo-500 mb-4">
-            Contact Us
+        <div className="flex flex-col justify-center gap-8 p-6 rounded-xl bg-gray-900/50 border border-gray-800 shadow-lg backdrop-blur-sm">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent mb-2">
+            Get In Touch
           </h2>
-
-          <div className="flex items-start gap-4">
-            <MapPin className="text-indigo-400 mt-1" />
-            <p className="text-gray-300 leading-relaxed">
-              Ward No. 6, Tulsi Mishra Lane, Maghi Kali,
-              <br />
-              Champanagar, Nathnagar, Bhagalpur, Bihar – 812004
-            </p>
-          </div>
-
-          <div className="flex items-start gap-4">
-            <Phone className="text-indigo-400 mt-1" />
-            <div className="text-gray-300">
-              <p>+91 91990 79443</p>
-              <p>+91 70045 09169</p>
-              <p>+91 83406 20058</p>
+          
+          <div className="flex items-start gap-4 group transition-all duration-300 hover:bg-gray-800/40 p-3 rounded-lg">
+            <div className="bg-indigo-500/20 p-2.5 rounded-full">
+              <MapPin className="text-indigo-400 h-5 w-5" />
+            </div>
+            <div>
+              <h3 className="text-indigo-300 font-medium mb-1">Our Location</h3>
+              <p className="text-gray-300 leading-relaxed text-sm">
+                Ward No. 6, Tulsi Mishra Lane, Maghi Kali,<br />
+                Champanagar, Nathnagar, Bhagalpur, Bihar – 812004
+              </p>
             </div>
           </div>
 
-          <div className="flex items-start gap-4">
-            <Mail className="text-indigo-400 mt-1" />
-            <p className="text-gray-300 break-all">skumar801212@gmail.com</p>
+          <div className="flex items-start gap-4 group transition-all duration-300 hover:bg-gray-800/40 p-3 rounded-lg">
+            <div className="bg-indigo-500/20 p-2.5 rounded-full">
+              <Phone className="text-indigo-400 h-5 w-5" />
+            </div>
+            <div>
+              <h3 className="text-indigo-300 font-medium mb-1">Call Us</h3>
+              <div className="text-gray-300 text-sm space-y-1">
+                <p>+91 91990 79443</p>
+                <p>+91 70045 09169</p>
+                <p>+91 83406 20058</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4 group transition-all duration-300 hover:bg-gray-800/40 p-3 rounded-lg">
+            <div className="bg-indigo-500/20 p-2.5 rounded-full">
+              <Mail className="text-indigo-400 h-5 w-5" />
+            </div>
+            <div>
+              <h3 className="text-indigo-300 font-medium mb-1">Email Us</h3>
+              <p className="text-gray-300 text-sm break-all mb-1">skumar801212@gmail.com</p>
+              <p className="text-gray-300 text-sm break-all">sujeetsteelfabrication@gmail.com</p>
+            </div>
           </div>
         </div>
-      </div>
-      {/* Aspect ratio utility for Tailwind CSS v2/v3 */}
+        </div>
+        {/* Aspect ratio utility for Tailwind CSS v2/v3 */}
       <style jsx>{`
         .aspect-w-16 {
           position: relative;
